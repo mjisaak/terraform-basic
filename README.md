@@ -11,6 +11,9 @@
 - Copy the content from the example [here](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
 - Update the version in the main.tf to the latest version.
 - Set the terraform version (e. g. `required_version = "0.15.1"`)
+- Initialize Terraform using `terraform init`
+- Create a .gitignore and add `*/.terraform` to it.
+- Test the deployment using `terraform plan`
 
 ## Resources
 
