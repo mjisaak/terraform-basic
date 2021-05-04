@@ -11,10 +11,12 @@
 - Copy the content from the example [here](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
 - Update the version in the main.tf to the latest version.
 - Set the terraform version (e. g. `required_version = "0.15.1"`)
+- Add a var.tf for the variables (`ni var.tf`)
 - Initialize Terraform using `terraform init`
 - Create a .gitignore and add `*/.terraform` to it.
 - Test the deployment using `terraform plan`
 - Deploy the ressources using `terraform apply`
+- If using `*.tfvars`, use the following terraform command: `terraform plan -var-file="dev.tfvars"`
 
 ## Resources
 

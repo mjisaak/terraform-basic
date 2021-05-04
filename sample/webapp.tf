@@ -1,8 +1,8 @@
 resource "azurerm_resource_group" "webapp" {
-  name     = "example.resource"
+  name     = "terraform-example-${var.stage}-rg"
   location = "West Europe"
   tags = {
-    "Environment" = "dev"
+    "Environment" = var.stage
     "Purpose"     = "Workshop"
   }
 }
