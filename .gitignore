@@ -1,2 +1,5 @@
 */.terraform
 sample/terraform.tfstate
+sample/tfplan.out
+
+sample/terraform.tfstate.backup

@@ -17,6 +17,7 @@
 - Test the deployment using `terraform plan`
 - Deploy the ressources using `terraform apply`
 - If using `*.tfvars`, use the following terraform command: `terraform plan -var-file="dev.tfvars"`
+- If you want to write the plan to an output file (which can be used as an input for terraform plan), use `terraform plan -out="tfplan.out" -var-file="dev.tfvars""`
 
 ## Resources
 
