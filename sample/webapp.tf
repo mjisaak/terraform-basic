@@ -19,7 +19,7 @@ resource "azurerm_app_service_plan" "webapp_plan" {
 }
 
 resource "azurerm_app_service" "example" {
-  name                = "example-app-service"
+  name                = "terraform-example-${var.stage}-webappservice"
   location            = azurerm_resource_group.webapp.location
   resource_group_name = azurerm_resource_group.webapp.name
   app_service_plan_id = azurerm_app_service_plan.webapp_plan.id
