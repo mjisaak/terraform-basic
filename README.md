@@ -24,3 +24,4 @@
 
 - [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 - [Terraform Azure AD Provider](https://registry.terraform.io/providers/hashicorp/azuread/latest)
+- [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - A CLI tool that generates tf/json and tfstate files based on existing infrastructure (reverse Terraform). **\*USE WITH CAUTION**
