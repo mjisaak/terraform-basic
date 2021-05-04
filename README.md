@@ -14,6 +14,7 @@
 - Initialize Terraform using `terraform init`
 - Create a .gitignore and add `*/.terraform` to it.
 - Test the deployment using `terraform plan`
+- Deploy the ressources using `terraform apply`
 
 ## Resources
 
