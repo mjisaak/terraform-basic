@@ -20,6 +20,14 @@
 - If you want to write the plan to an output file (which can be used as an input for terraform plan), use `terraform plan -out="tfplan.out" -var-file="dev.tfvars""` and apply it using `terraform apply tfplan.out`
 - Use `terraform validate` to validate your terraform project
 
+## Cleanup resources
+
+You can delete everything you have created with the sample using the following command:
+
+```bash
+terraform destroy -var-file="dev.tfvars"
+```
+
 ## Resources
 
 - [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
