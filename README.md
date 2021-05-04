@@ -20,6 +20,12 @@
 - If you want to write the plan to an output file (which can be used as an input for terraform plan), use `terraform plan -out="tfplan.out" -var-file="dev.tfvars""` and apply it using `terraform apply tfplan.out`
 - Use `terraform validate` to validate your terraform project
 
+## Resources
+
+- [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
+- [Terraform Azure AD Provider](https://registry.terraform.io/providers/hashicorp/azuread/latest)
+- [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - A CLI tool that generates tf/json and tfstate files based on existing infrastructure (reverse Terraform). **_USE WITH CAUTION_**
+
 ## Cleanup resources
 
 You can delete everything you have created with the sample using the following command:
@@ -27,9 +33,3 @@ You can delete everything you have created with the sample using the following c
 ```bash
 terraform destroy -var-file="dev.tfvars"
 ```
-
-## Resources
-
-- [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
-- [Terraform Azure AD Provider](https://registry.terraform.io/providers/hashicorp/azuread/latest)
-- [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - A CLI tool that generates tf/json and tfstate files based on existing infrastructure (reverse Terraform). **\*USE WITH CAUTION**
